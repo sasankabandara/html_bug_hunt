@@ -1,0 +1,18 @@
+<table>
+<thead>
+    <tr>
+        <th>Quant.</th>
+        <th>Cod.</th>
+        <th>Mantenimiento</th>
+    </tr>
+</thead>
+<tbody>
+    <tr *ngFor="let data of getData()"> <!-- Dynamic Generate Rows-->
+        <td>{{data?.quant}}</td>
+        <td>{{data?.codItem}}</td>
+        <td>{{data?.item}}</td>
+    </tr>
+</tbody>
+<tfoot>
+
+</tfoot></table>
